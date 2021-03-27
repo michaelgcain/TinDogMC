@@ -1,0 +1,199 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 1.4;
+  margin-bottom: 40px;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Nav Bar */
+
+.navbar {
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.25rem;
+}
+
+/* Title */
+
+#title {
+  text-align: left;
+  position: relative;
+  }
+
+#title .container-fluid {
+  padding: 3% 15% 8.25%;
+}
+
+.download-button {
+  margin-bottom: 20px;
+}
+
+.btn-outline-light {
+  margin-left: 10px;
+}
+
+.rotated {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+  margin-top: 20px;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+}
+
+.feature-icon {
+  color: #ef8172;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.fc {
+  padding: 0 5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  padding: 10px 0;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-paragraph {
+  padding-top: 25px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Call to Action */
+
+.button-cta {
+  margin-left: 40px;
+}
+
+/* Footer */
+
+#footer {
+
+}
+
+.footer-icon {
+  margin: 20px 10px;
+}
+
+.footer-icon:hover {
+  color: #ff4c68;
+}
+
+
+
+
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .rotated {
+    position: static;
+    transform: rotate(0);
+  }
+}
